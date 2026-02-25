@@ -56,6 +56,7 @@ Following is a list of all the properties in the config used by the current vers
 | `%B`, `%C`, `%A`, and `%T` | Uses the Judgment text that matches the threshold as specified in either `beforeCutAngleJudgments`, `accuracyJudgments`, `afterCutAngleJudgments`, or `timeDependencyJudgments` (depending on the used token). |
 | `%s` | The total score of the cut. |
 | `%p` | The percentage of the total score of the cut out of the maximum possible. |
+| `%d` | An arrow pointing in the direction from the cut plane to the center of the note. (So if the note is cut too far on its right side, the arrow will point to the left.) |
 | `%%` | A literal percent symbol. |
 | `%n` | A newline. |
 
@@ -99,7 +100,9 @@ Following is a list of all the properties in the config used by the current vers
 
 ## Useful links
 
-[HSV Config Creator by MoreOwO](https://github.com/MoreOwO/HSV-Config-Creator/releases/latest): A program that helps you create configs for HSV. (May not always be up-to-date with the latest features.)
+[HSV Preview by Isaiah Billingsley](https://hsv-preview.netlify.app/): A website that allows you to edit an HSV config file with a preview.
+
+[HSV Config Creator by MoreOwO](https://github.com/MoreOwO/HSV-Config-Creator/releases/latest): A program that helps you create configs for HSV. (Out of date for some features.)
 
 ## Credits
 
